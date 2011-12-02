@@ -1,0 +1,14 @@
+
+This is an example of a very simple webpage scraper.  It uses BeautifulSoup to parse the webpage, so be sure you have that package installed.
+
+It's designed to be tested against the web page presented at http://CatTo5k.com/target.htm
+
+When run, it will download the page, parse some of the data out from the table on the webpage, and write that data to a file.
+
+
+Two functions make this happen:
+
+get_page(url) - this opens the webpage and returns the source code
+soup_it(source) - this takes the source code and uses the BeautifulSoup library to parse specific data from it.
+
+The functions are called at the bottom of the file.
